@@ -34,6 +34,6 @@ function resetGame() {
     document.getElementById('player').innerHTML = pScore;
     document.getElementById('computer').innerHTML = cScore;
     document.getElementById('result').innerHTML = "Choose your weapon!";
-    document.getElementById('playerChoice').innerHTML = "";
-    document.getElementById('computerChoice').innerHTML = "";
+    document.getElementById('playerChoice').innerHTML = "✊";
+    document.getElementById('computerChoice').innerHTML = "✊";
 }
